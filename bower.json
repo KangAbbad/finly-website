@@ -1,0 +1,26 @@
+{
+  "name": "finly-website",
+  "description": "Modern HTML Template",
+  "main": "index.html",
+  "authors": [
+    "KANGABBAD"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "GULP"
+  ],
+  "homepage": "https://github.com/KangAbbad/finly-website",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-beta"
+  }
+}
