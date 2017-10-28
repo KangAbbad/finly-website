@@ -14,8 +14,13 @@
   var sass = require('gulp-sass');
   var autoprefixer = require('gulp-autoprefixer');
   var sourcemaps = require('gulp-sourcemaps');
+
+  // Biar auto refresh
   var browserSync = require('browser-sync').create();
+
+  // Biar optimizing/minimalis/minify script
   var useref = require('gulp-useref');
+
   var uglify = require('gulp-uglify');
   var gulpIf = require('gulp-if');
   var cssnano = require('gulp-cssnano');
@@ -78,10 +83,10 @@
   })
 
   gulp.task('watch', ['browserSync', 'sass'], function (){
-      gulp.watch('app/scss/**/*.scss', ['sass']); 
+      gulp.watch('app/scss/**/*.scss', ['sass']);
       // Reloads the browser whenever HTML or JS files change
       gulp.watch('app/*.html', browserSync.reload); 
-      gulp.watch('app/js/**/*.js', browserSync.reload); 
+      gulp.watch('app/js/**/*.js', browserSync.reload);
   });
 
   gulp.task('build', function (callback) {
