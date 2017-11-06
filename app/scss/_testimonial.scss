@@ -60,5 +60,26 @@
                 margin-top: 5px;
             }
         }
+
+        @media screen and (max-width:767px){
+            p {
+                font-size: 17px;
+            }
+    
+            .icon {
+                font-size: 17px;
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+            }
+    
+            h5 {
+                font-size: 14px;
+    
+                span {
+                    font-size: 12px;
+                }
+            }   
+        }
     }
 }

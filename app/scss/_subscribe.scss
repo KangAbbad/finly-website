@@ -86,10 +86,14 @@
                     font-size: 16px;
                     font-weight: 500;
                     color: $c_content;
-                    padding: 0 15px;
+                    padding: 0 20px;
 
                     &:hover, &:active, &:focus {
                         color: $w;
+                    }
+
+                    &:last-child{
+                        padding-right: 0;
                     }
 
                     @media screen and (max-width:767px){

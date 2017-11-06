@@ -13,6 +13,7 @@
             background-image: url("../images/image-7.jpg");
             background-position: 50%;
             background-size: cover;
+            margin-bottom: 50px;
 
             @media screen and (max-width:991px){
                 width: 225px;
@@ -63,43 +64,6 @@
             }
         }
 
-        // @media (min-width:320px) and (max-width:575px){
-        //     padding-left: 15px;
-
-        //     .title_section {
-        //         font-size: 15px;
-        //         margin-bottom: 10px;
-        //     }
-
-        //     .desc_section {
-        //         margin-bottom: 20px;
-        //         font-size: 20px;
-        //     }
-
-        //     .content_section {
-        //         font-size: 13px;
-        //     }
-    
-        //     .author {
-        //         margin-top: 30px;
-
-        //         img {
-        //             width: 40px;
-        //             height: 40px;
-        //         }
-
-        //         h5 {
-        //             font-size: 16px;
-        //             padding-top: 5px;
-
-        //             span {
-        //                 font-size: 12px;
-        //                 margin-top: 3px;
-        //             }
-        //         }
-        //     }
-        // }
-
         @media screen and (max-width:767px){
             padding-left: 50px;
 
@@ -139,20 +103,6 @@
                 margin-top: 10px;
             }
         }
-
-        // @media (min-width:320px) and (max-width:575px){
-        //     margin-top: 100px;
-        //     text-align: center;
-
-        //     h5 {
-        //         font-size: 35px;
-    
-        //         span {
-        //             font-size: 12px;
-        //             margin-top: 10px;
-        //         }
-        //     }
-        // }
 
         @media screen and (max-width:767px){
             margin-top: 130px;
