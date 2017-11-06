@@ -1,8 +1,12 @@
 #our_pricing {
     padding: 160px 0;
 
+    @media screen and (max-width:767px){
+        padding: 110px 0;
+    }
+
     .title_section {
-        margin-bottom: 30px;    
+        margin-bottom: 30px;
     }
 
     .desc_section {
@@ -30,6 +34,20 @@
                 z-index: -1;
                 opacity: 0.68;
             }
+        }
+    }
+
+    @media screen and (max-width:767px){
+        .title_section{
+            margin-bottom: 20px;
+        }
+        .desc_section {
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+        .content_section {
+            font-size: 18px;
+            margin-bottom: 30px;
         }
     }
 
@@ -122,7 +140,6 @@
                 top: -10px;
                 background-color: $primary;
                 color: $w;
-                margin-top: -10px;
                 border-color: $primary;
 
                 h5 {
@@ -131,6 +148,10 @@
                 a {
                     background-color: $w;
                 }
+            }
+
+            @media screen and (max-width:767px){
+                margin: 40px 15px;
             }
         }
     }
