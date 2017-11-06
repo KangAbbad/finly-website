@@ -32,6 +32,7 @@
             background-color: $primary;
             border-color: $primary;
             border-radius: 5px;
+            font-size: 13px;
             font-weight: 500;
             text-transform: uppercase;
             color: $w;
@@ -42,16 +43,8 @@
     .content {
         padding: 0;
 
-        h4, h5 {
-            float: left;
-
-            a {
-                display: inline;
-                text-decoration: none;
-            }
-        }
-
         h4 {
+            text-align: left;
             font-size: 26px;
             font-weight: 700;
             color: $w;
@@ -59,12 +52,15 @@
         }
 
         h5 {
+            text-align: left;
             font-size: 15px;
             font-weight: 500;
             color: $c_content;
             margin-top: 5px;
 
             a {
+                display: inline;
+                text-decoration: none;
                 color: $w;
 
                 &:hover, &:active, &:focus {
@@ -74,7 +70,7 @@
         }
 
         ul {
-            float: right;
+            text-align: right;
             padding: 0;
 
             li {
@@ -86,7 +82,7 @@
                     font-size: 16px;
                     font-weight: 500;
                     color: $c_content;
-                    padding: 0 20px;
+                    padding-left: 25px;
 
                     &:hover, &:active, &:focus {
                         color: $w;
