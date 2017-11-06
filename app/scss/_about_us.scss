@@ -14,20 +14,14 @@
             background-position: 50%;
             background-size: cover;
 
-            // @media (min-width:320px) and (max-width:575px){
-            //     width: 100px;
-            //     height: 100px;
-            // }
-
+            @media screen and (max-width:991px){
+                width: 225px;
+                height: 225px;
+            }
             @media screen and (max-width:767px){
                 width: 200px;
                 height: 200px;
             }
-
-            // @media (min-width:767px) and (max-width:991px){
-            //     width: 225px;
-            //     height: 225px;
-            // }
         }
     }
 
